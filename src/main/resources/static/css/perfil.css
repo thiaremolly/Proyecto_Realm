@@ -1,0 +1,85 @@
+/* Cuerpo */
+body {
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, #9AD1D4, #B7D8D8, #D3E0E1, #EAEAEA);
+    color: #020d1b;
+}
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    height: 100vh; /* Esto centra verticalmente en la ventana */
+  }
+/* CSS DE LA TABLA*/
+.nav-tabs-container {
+    margin-bottom: 20px;
+  }
+  
+  .tab-content {
+    width: 100%;
+  }
+  
+  .info-table {
+    width: 100%;
+  }
+
+/* CSS DE LOS BOTONES */
+.btn {
+    display: grid;
+    place-items: center;
+    background: #e3edf7;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50px;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+            -6px -6px 10px -1px rgba(255,255,255,0.7);
+    border: 1px solid rgba(0,0,0,0);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+
+.btn:hover {
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+            inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+            -0.5px -0.5px 0px rgba(255,255,255,1),
+            0.5px 0.5px 0px rgba(0,0,0,0.15),
+            0px 12px 10px -10px rgba(0,0,0,0.05);
+    border: 1px solid rgba(0,0,0,0.1);
+    transform: translateY(0.5em);
+    
+}
+
+.btn svg {
+    transition: transform 0.5s;
+}
+
+.btn:hover svg {
+    transform: scale(0.9);
+    fill: #333333;
+}
+/* LOGRA QUE LOS BOTONES QUEDEN ARRIBA */
+#main-menu{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/* Aplicar estilos a las tablas dentro de .tab-content */
+.tab-content table {
+    width: 500px; /* Ancho deseado para las tablas */
+    margin: 0 auto; /* Centrar horizontalmente */
+    margin-bottom: 20px; /* Espacio entre tablas */
+}
+
+/* Opcional: Personalizar el estilo de las celdas */
+.tab-content td, .tab-content th {
+    padding: 8px;
+    border: 1px solid #0275e9;
+    border-radius: 20px;
+}
+

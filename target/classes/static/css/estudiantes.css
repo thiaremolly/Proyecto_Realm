@@ -1,0 +1,38 @@
+body {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.title {
+	width: 1080px;
+}
+
+.student-box {
+	border: 1px solid black;
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+	width: calc(20% - 20px);
+	/* Aproximadamente 20% de ancho y margen de 10px */
+	box-sizing: border-box;
+}
+
+.student-image {
+	border-radius: 50%;
+	width: 120px;
+	/* Ajusta el ancho de la imagen aquí */
+	height: 120px;
+	/* Ajusta el alto de la imagen aquí */
+	object-fit: cover;
+	margin: 10px auto;
+	display: block;
+}
+
+.student-details {
+	margin-top: 10px;
+}
+
+h1 {
+	text-align: center;
+}

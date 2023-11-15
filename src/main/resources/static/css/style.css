@@ -1,0 +1,341 @@
+
+
+/* Estilo de la tabla de programación */
+.schedule-table {
+width: 70%;
+border-collapse: collapse;
+margin-bottom: 20px;
+}
+
+.schedule-table th,
+.schedule-table td {
+border: 1px solid black;
+padding: 10px;
+text-align: center;
+}
+
+.schedule-table th {
+background: linear-gradient(45deg, #8095be, #8095be, #5a6c8f, #8095be);
+color: #fff;
+}
+
+/* Estilo de las celdas de horario */
+th,
+td {
+border: 1px solid black;
+padding: 10px;
+text-align: center;
+}
+
+.time-cell {
+border-top: 1px solid black;
+}
+
+caption {
+padding: 20px;
+font-size: 28px;
+color: #F4CC70;
+}
+
+th {
+background-color: #556685;
+color: black;
+}
+
+td {
+color: #020d1b;
+background-color: #dc883e;
+padding: 8px;
+text-align: center;
+}
+
+/* botones */
+.btn {
+display: grid;
+place-items: center;
+background: #e3edf7;
+padding: 10px;
+margin: 5px;
+border-radius: 50px;
+box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+-6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+border: 1px solid rgba(0, 0, 0, 0);
+cursor: pointer;
+transition: transform 0.5s;
+}
+
+
+.btn:hover {
+box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+-0.5px -0.5px 0px rgba(255, 255, 255, 1),
+0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+border: 1px solid rgba(0, 0, 0, 0.1);
+transform: translateY(0.5em);
+
+}
+
+.btn svg {
+transition: transform 0.5s;
+}
+
+.btn:hover svg {
+transform: scale(0.9);
+fill: #333333;
+}
+
+/* Estilo del menú principal */
+#main-menu {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+/* Cuerpo */
+body {
+font-family: arial, sans-serif;
+font-size: 16px;
+background: linear-gradient(#c3d1d0, #35d3c6);
+color: #F4CC70;
+}
+
+/* CSS de las notas rapidas */
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 20px;
+display: flex;
+}
+
+h2,
+p {
+font-size: 100%;
+font-weight: normal;
+}
+
+ul,
+li {
+list-style: none;
+}
+
+ul {
+overflow: hidden;
+padding: 3em;
+}
+
+ul li a {
+text-decoration: none;
+color: #000;
+background: #ffc;
+display: block;
+width: 100px;
+padding: 10px;
+-moz-box-shadow: 5px 5px 7px rgba(33, 33, 33, 1);
+box-shadow: 5px 5px 7px rgba(33, 33, 33, .7);
+-moz-transition: -moz-transform .15s linear;
+-o-transition: -o-transform .15s linear;
+-webkit-transition: -webkit-transform .15s linear;
+}
+
+ul li {
+margin: 10px;
+float: left;
+}
+
+ul li h2 {
+font-weight: bold;
+padding-bottom: 10px;
+}
+
+ul li p {
+font-family: "Reenie Beanie", arial, sans-serif;
+font-size: 15px;
+}
+
+ul li:nth-child a {
+-o-transform: rotate(-3deg);
+-webkit-transform: rotate(-3deg);
+-moz-transform: rotate(-3deg);
+position: relative;
+top: -5px;
+background: #ccf;
+}
+
+ul li a:hover,
+ul li a:focus {
+box-shadow: 10px 10px 7px rgba(0, 0, 0, .7);
+-moz-box-shadow: 10px 10px 7px rgba(0, 0, 0, .7);
+-webkit-box-shadow: 10px 10px 7px rgba(0, 0, 0, .7);
+-webkit-transform: scale(1.25);
+-moz-transform: scale(1.25);
+-o-transform: scale(1.25);
+position: relative;
+z-index: 5;
+}
+
+ol {
+text-align: center;
+}
+
+ol li {
+display: inline;
+padding-right: 1em;
+}
+
+ol li a {
+color: #fff;
+}
+
+/* informacion de abajo  */
+
+.Plataformas {
+height: 100px;
+float: left;
+box-sizing: inherit;
+display: block;
+padding: 0.01em 70px;
+color: rgb(0, 0, 0);
+font-size: small;
+}
+
+.Lista {
+display: inline-table;
+font-size: 90%;
+margin: -40px;
+color: rgb(0, 0, 0);
+
+}
+
+/* Estilo del footer */
+.footer {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+max-width: 800px;
+margin: 0 auto;
+flex-wrap: wrap;
+}
+
+/*Parte de las notas rapidas */
+.notes-list {
+list-style: none;
+padding: 0;
+}
+
+.content {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+/* Estilo del contenedor principal */
+.container {
+max-width: 1500px;
+margin: 0 auto;
+padding: 20px;
+display: grid;
+grid-template-columns: 70% 30%;
+gap: 20px;
+}
+/* posición de la tabla y la posición de la notas */
+.Horario {
+width: 1500px;
+}      
+
+.notes-container {
+box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+padding: 20px;
+height: 250px;
+width: 300px;
+margin-top: 0px;
+margin-left: 50px;
+background-color: #ccf;
+color: #000;
+}
+
+
+.notes-container textarea {
+width: 300px;
+height: 200px;
+background-color: #ccf;
+border: none;
+resize: none;
+}
+
+/*TITULOS*/
+.titulo1{
+text-align: center;
+color: #000;
+
+}
+.titulo2{
+text-align: center;
+color: #000;
+}
+/* Estilo del div Recordatorio */
+.Recordatorio {
+box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+padding: 20px;
+border: 2px solid #556685; /* Color del borde */
+border-radius: 10px; /* Radio de los bordes */
+background-color: #f9f9f9; /* Color de fondo */
+margin-top: 20px; /* Espacio superior */
+}
+
+/* Estilo para los enlaces dentro del div Recordatorio */
+.Recordatorio a {
+text-decoration: none;
+color: #020d1b;
+transition: color 0.3s ease-in-out;
+}
+
+.Recordatorio a:hover {
+color: #dc883e; /* Cambio de color al pasar el mouse */
+}
+
+/* Estilo para las listas dentro del div Recordatorio */
+.notes-list {
+list-style: none;
+padding: 0;
+}
+
+.notes-list li {
+margin-bottom: 10px;
+border-bottom: 1px dashed #ccc; /* Línea punteada entre elementos */
+padding-bottom: 10px;
+}
+/* Estilo del div Recordatorio */
+.Recordatorio {
+box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+padding: 20px;
+color: #020d1b;
+border: 2px solid #556685; /* Color del borde */
+border-radius: 10px; /* Radio de los bordes */
+background: linear-gradient(45deg, #8095be, #8095be, #5a6c8f, #8095be); /* Color de fondo */
+margin-top: 20px; /* Espacio superior */
+}
+
+/* Estilo para los enlaces dentro del div Recordatorio */
+.Recordatorio a {
+text-decoration: none;
+color: #020d1b;
+transition: color 0.3s ease-in-out;
+}
+
+.Recordatorio a:hover {
+color: #3841e9; /* Cambio de color al pasar el mouse */
+}
+
+/* Estilo para las listas dentro del div Recordatorio */
+.notes-list {
+list-style: none;
+padding: 0;
+}
+
+.notes-list li {
+margin-bottom: 10px;
+border-bottom: 1px dashed #ccc; /* Línea punteada entre elementos */
+padding-bottom: 10px;
+}
