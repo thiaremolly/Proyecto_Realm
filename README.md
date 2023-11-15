@@ -1,2 +1,2 @@
-# FinalProyect
- Es el final proyect
+# Realm_CodingDojo
+Plataforma integral orientada hacia instituciones educativas, enfocada en la gestión eficaz de aspectos cruciales como calificaciones, asistencia, horarios, recordatorios, notas y asignaturas. La plataforma dispone de acceso personalizado e individualizado, según la función desempeñada, ya sea estudiante, docente o apoderado. Además, se incorpora un espacio comunitario específico para las entidades educativas afiliadas a Realm, facilitando la interacción y el intercambio de publicaciones, eventos e información relevante. Este entorno didáctico fomenta la conexión y colaboración, contribuyendo a la construcción conjunta de un futuro educativo enriquecedor.
